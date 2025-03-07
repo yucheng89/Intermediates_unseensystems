@@ -77,7 +77,7 @@ features_layer = original_net.layer5
 layer_output = None
 def hook_fn(module, input, output):
     global layer_output
-    layer_output = output  # 该层的输出值
+    layer_output = output  
 hook = features_layer.register_forward_hook(hook_fn)
 
 all_metal_list = ['23V', '77Ir', '45Rh', '22Ti', '42Mo', '73Ta', '44Ru', '78Pt', '74W', '25Mn', '24Cr', '27Co', '75Re','76Os', '26Fe']
