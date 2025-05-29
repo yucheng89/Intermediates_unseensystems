@@ -8,7 +8,7 @@ The file contains the way to add random noise and tests the model performance in
 ## solvent_transfer.py
 The file tests the model performance in the presence of different solvents.
 ## shap.py
-The file contains all the code related to SHAP analysise.
+The file contains all the code related to SHAP analysis.
 ## umap1.py umap2.py umap3.py
 Three files contain dimensionality reduction visualization of input layer and feature layer using UMAP.
 umap1 shows the distribution between different systems, umap2 shows the distribution of presence and absence, and umap3 shows the distribution of different solvents.
